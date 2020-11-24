@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+  <div class="container">
+    <div class="card">
+      <div class="card_bg">
+        <img src="images/bg-pattern-card.svg" alt="gb-card">
+      </div>
+      <div class="card_profil_photo">
+        <img src="images/image-victor.jpg" alt="victor">
+      </div>
+      <div class="card_title">
+        <h3>Victor Crest </h3>
+        <span class="age">26</span>
+        <span class="from">London</span>
+      </div>
+      <footer>
+        <section class="followers center">
+          <p><b>80K</b></p>
+          <p style="color: hsl(0, 0%, 59%);font-size: 13px;">Followers</p>
+        </section>
+        <section class="likes center">
+          <p><b>803K</b></p>
+          <p style="color: hsl(0, 0%, 59%);font-size: 13px;">Likes</p>
+        </section>
+        <section class="photos center">
+          <p><b>1.4K</b></p>
+          <p style="color: hsl(0, 0%, 59%);font-size: 13px;">Photos</p>
+        </section>
+      </footer>
 
-  803K
-  Likes
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/isfiaya/" target="_blank">Aymen Isfiaya</a>.
+    </div>
   </div>
+
 </body>
+
 </html>

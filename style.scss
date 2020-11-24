@@ -1,0 +1,82 @@
+* {
+	-webkit-tap-highlight-color: transparent;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Kumbh Sans;
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	position: fixed;
+	bottom: 5px;
+	a {
+		color: hsl(228, 45%, 44%);
+	}
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #19a1ad;
+	background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+	background-position: top -526px left -328px, bottom -644px right -253px;
+	background-repeat: no-repeat, no-repeat;
+	@media (max-width: 375px) {
+		background-position: top -642px left -728px, bottom -502px right -799px;
+	}
+}
+.card {
+	width: 350px;
+	height: 373px;
+	position: relative;
+	background-color: white;
+	overflow: hidden;
+	border-radius: 5%;
+	box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+	&_profil_photo {
+		position: absolute;
+		right: 36%;
+		top: 23%;
+		img {
+			border-radius: 50%;
+			border: white solid 5px;
+		}
+	}
+	&_title {
+		text-align: center;
+		margin-top: 56px;
+		line-height: 1.7;
+		h3 {
+			display: inline;
+			font-size: 18px;
+		}
+	}
+	footer {
+		display: flex;
+		justify-content: space-evenly;
+		border-top: solid 2px #e7e7e7;
+		padding-top: 25px;
+		margin-top: 19px;
+	}
+}
+.age {
+	display: inline-block;
+	margin-left: 7px;
+	color: hsl(227, 10%, 46%);
+	font-size: 18px;
+}
+.from {
+	display: block;
+	text-align: center;
+	color: hsl(0, 0%, 59%);
+}
+.center {
+	text-align: center;
+	line-height: 1.5;
+}
