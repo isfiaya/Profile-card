@@ -92,8 +92,8 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  border-top: solid 2px #e7e7e7;
-  padding-top: 25px;
+  border-top: solid 1px #e7e7e7;
+  padding-top: 20px;
   margin-top: 19px;
 }
 
@@ -113,5 +113,11 @@ body {
 .center {
   text-align: center;
   line-height: 1.5;
+}
+
+.desc {
+  color: #969696;
+  font-size: 10px;
+  letter-spacing: 2px;
 }
 /*# sourceMappingURL=style.css.map */
